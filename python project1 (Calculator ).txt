@@ -1,0 +1,14 @@
+num1 = float(input("Pick a number:"))
+num2 = float(input("Pick another number:"))
+operation = str(input("Pick a operation (Multiply , Divide , Add, Subtract)"))
+if operation == "multiply":
+    print(num1 * num2)
+elif operation == "divide":
+    print(num1 / num2)
+elif operation == "add":
+    print(num1 + num2)
+elif operation == "subtract":
+    print(num1 - num2)
+
+else:
+    print("please input a correct operation")
